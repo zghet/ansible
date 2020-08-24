@@ -1,12 +1,5 @@
 .. _ansible_documentation:
 
-Ansible Documentation
-=====================
-
-About Ansible
-`````````````
-
-.. _ansible_documentation:
 
 Ansible Documentation
 =====================
