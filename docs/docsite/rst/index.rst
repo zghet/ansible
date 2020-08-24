@@ -6,19 +6,27 @@ Ansible Documentation
 About Ansible
 `````````````
 
-Ansible is an IT automation tool.  It can configure systems, deploy software, and orchestrate more advanced IT tasks such as continuous deployments or zero downtime rolling updates.
+.. _ansible_documentation:
 
-Ansible's main goals are simplicity and ease-of-use. It also has a strong focus on security and reliability, featuring a minimum of moving parts, usage of OpenSSH for transport (with other transports and pull modes as alternatives), and a language that is designed around auditability by humans--even those not familiar with the program.
+Ansible Documentation
+=====================
 
-We believe simplicity is relevant to all sizes of environments, so we design for busy users of all types: developers, sysadmins, release engineers, IT managers, and everyone in between. Ansible is appropriate for managing all environments, from small setups with a handful of instances to enterprise environments with many thousands of instances.
+Acerca de Ansible
+`````````````
+Ansible es una herramienta de IT para la automatización. Puede configurar sistemas, desplegar software y orquestar muchas más tareas de IT como; despliegue continuo o actualizaciones continuas sin interrupción del servicio.
 
-You can learn more at `AnsibleFest <https://www.ansible.com/ansiblefest>`_, the annual event for all Ansible contributors, users, and customers hosted by Red Hat. AnsibleFest is the place to connect with others, learn new skills, and find a new friend to automate with.
+Los objetivos principales de ansible son la simplicidad y la facilidad de uso. Tambien esta fuertemente enfocada en fortalecer la seguridad y confiabilidad, con el menor movimiento de partes, usando OpenSSH para transportar (con otros medios de transporte y modos de extracción alternos), y un lenguaje que esta diseñado alrededor de la auditabilidad por humanos incluso aquellos que no esten familiarizados con el programa.
 
-Ansible manages machines in an agent-less manner. There is never a question of how to upgrade remote daemons or the problem of not being able to manage systems because daemons are uninstalled.  Because OpenSSH is one of the most peer-reviewed open source components, security exposure is greatly reduced. Ansible is decentralized--it relies on your existing OS credentials to control access to remote machines. If needed, Ansible can easily connect with Kerberos, LDAP, and other centralized authentication management systems.
+Creemos que la simplicidad es relevante para todos los tipos de ambientes, así que diseñamos para todo tipo de usuarios: developers, sysadmins, release engineers, IT managers y cualquiera en el medio. Ansible es apropiado para manegar todo tipo de ambientes, desde pequeñas instalaciones con un puñado de instancias hasta ambientes con miles de instancias.
 
-This documentation covers the version of Ansible noted in the upper left corner of this page. We maintain multiple versions of Ansible and of the documentation, so please be sure you are using the version of the documentation that covers the version of Ansible you're using. For recent features, we note the version of Ansible where the feature was added.
+Tu puedes puedes aprender mas en `AnsibleFest <https://www.ansible.com/ansiblefest>`_, el evento anual para contribuidores de ansible, usuarios y clientes auspiciado por Red Hat. AnsibleFest es el lugar donde conectar con otros, aprender nuevas habilidades y encontrar un nuevo amigo con el cual automatizar.
 
-Ansible releases a new major release of Ansible approximately three to four times per year. The core application evolves somewhat conservatively, valuing simplicity in language design and setup. Contributors develop and change modules and plugins, hosted in collections since version 2.10, much more quickly.
+Ansible administra maquinas sin agentes de por medio. Nunca existira la duda de como actualizar los demonios remotos o el problema de no poder administrar los sistemas por que los demonios fueron desinstalados. Ya que OpenSSH es uno de los mas proyectos de codigo abiertos más revisados, las brechas de seguridad se reducen considerablemente. Ansible es descentralizado basandose en las credenciales existentes en tu sistema operativo para controlar el acceso a equipos remotos. Si es necesario, Ansible puede ser facilmente conectado con Kerberos, LDAP y otros sistemas centralizados de administraciones de autenticación.
+
+Esta documentación cubre la versión de Ansible anotada en la esquina superior izquierda de esta pagina. Mantenemos multiples versiones de Ansibles y la documentación, así que por favor validad que la versión que estas usando sea la que la documentación cubre. Para recientes caracteristicas, nosotros anotamos la versiónes de Ansible donde la caracteristica fue añadida.
+
+Ansible libera nuevas mejoras de Ansible aproximadamente tres o cuatro veces por año. El core aplicativo evoluciona de manera conservadora, valora la simplicidad en el lenguaje, diseño y configuración. Los contribuidores desarrollan y cambian modulos y complementos, alojados en colleciones desde la versione 2.10, mucho más rapido.
+
 
 .. toctree::
    :maxdepth: 2
